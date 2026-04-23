@@ -94,7 +94,10 @@ body {
 
 .car-item img {
     width: 100%;
-    height: auto;
+    height: 400px;
     object-fit: cover;
 }
 
+.navigasi {
+    align-items: first baseline;
+}
