@@ -1,7 +1,23 @@
-p{
-    color: black;
+.atas{
+    color: rgb(22, 183, 52);
+}
+
+.bawah{
+    color: rgb(211, 194, 11);
+}
+
+.atas b{
+    color: blue;
+}
+.bawah p{
+    color: blue;
 }
 
 button{
     background-color: pink;
+}
+
+.biru{
+    color: red;
+    background-color: black;
 }
