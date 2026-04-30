@@ -141,7 +141,7 @@ p {
     text-align: center;
     font-size: 2em;
     margin-bottom: 1em;
-    padding: 50px;
+    padding: 30px;
 }
 
 .buktidonasi {
@@ -189,7 +189,7 @@ p {
     text-align: center;
     font-size: 2em;
     margin-bottom: 1em;
-    padding: 50px;
+    padding: 30px;
 }
 
 .kerja_sama {
@@ -222,26 +222,6 @@ p {
     color: #555;
     font-size: 0.9em;
 }
-
-.services {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1em;
-    margin-top: 15px;
-}
-
-.service-box {
-    background: #f0f0f0;
-    padding: 15px;
-    border-radius: 10px;
-    transition: 0.3s;
-}
-
-.service-box:hover {
-    background: #ffe0d6;
-    transform: translateY(-5px);
-}
-
 
 
 footer {
