@@ -129,10 +129,6 @@ nav {
     backdrop-filter: blur(5px);
 }
 
-.logo img{
-    height: 40px;
-}
-
 .menu a{
     color: white;
     font-family: 'Montserrat', sans-serif;
@@ -153,9 +149,12 @@ nav {
     border-radius: 17px;
 }
 
-.menu a:active{
-    color: #ff5722;
+
+.logo img{
+    height: 40px;
 }
+
+
 
 
 .card-skew {
@@ -164,7 +163,6 @@ nav {
     overflow: hidden; 
     border-radius: 15px; 
     transform: skewX(-20deg); 
-    
     background: #ccc;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
