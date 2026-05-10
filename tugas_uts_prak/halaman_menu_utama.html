@@ -7,30 +7,92 @@
     <link rel="stylesheet" href="menu.css">
 </head>
 <body>
-    <nav>
-        <div class="navcontainer">
-            <a href="index.html" class="logo">
-            <img src="logo resto.png" alt="logo resto"></a>
-            <div class="menu">
-                <a href="index.html">HOME</a>
-                <a href="#masukan_donasi"></a>
-                <a href="#MEMBANGUN_BERSAMA">MARI BERGABUNG</a>
+    <nav class="nav_baru">
+    <div class="nav_baru_container">
+        <a href="index.html" class="nav_icon" title="Home">
+            <span class="icon">H</span>
+            <span class="label">HOME</span>
+        </a>
+        <a href="#" class="nav_icon active" title="Menu">
+            <span class="icon">M</span>
+            <span class="label">MENU</span>
+        </a>
+    </div>
+</nav>
 
-                <div class="dropdown">
-                    <a href="#" class="dropbtn">MENU ⬎</a>
-                    <div class="dropdown_kontainer">
-                        <a href="#">Menu Buka Puasa</a>
-                        <a href="#">Prasmanan</a>
-                        <a href="#">Wedding Package</a>
-                        <a href="#">Meal Box</a>
-                        <a href="#">Hampers</a> 
-                    </div> 
+    <div class="menu-container">
+        <header class="menu-header">
+            <h1>LA MAISON D'OR</h1>
+            <p class="subtitle">Curated Fine Dining Experience</p>
+            <div class="divider"></div>
+        </header>
+
+        <main class="menu-content">
+            <section class="menu-section">
+                <h2>Les Entrées</h2>
+                
+                <div class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Escargots de Bourgogne</span>
+                        <span class="item-price">185</span>
+                    </div>
+                    <p class="item-description">Burgundy snails, garlic herb butter, toasted brioche.</p>
                 </div>
-                <a href="#About">ABOUT</a>
-                <a href="#contact">CONTACT</a>
-            </div>
-        </div>
-    </nav>
-    
+
+                <div class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Wagyu Beef Carpaccio</span>
+                        <span class="item-price">240</span>
+                    </div>
+                    <p class="item-description">A5 Miyazaki, truffle oil, capers, aged parmesan shavings.</p>
+                </div>
+            </section>
+
+            <section class="menu-section">
+                <h2>Les Plats Principaux</h2>
+                
+                <div class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Pan-Seared Foie Gras</span>
+                        <span class="item-price">450</span>
+                    </div>
+                    <p class="item-description">Balsamic reduction, caramelized figs, toasted hazelnut.</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Lobster Thermidor</span>
+                        <span class="item-price">890</span>
+                    </div>
+                    <p class="item-description">Atlantic lobster, cognac cream sauce, gruyère crust.</p>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Truffle Risotto</span>
+                        <span class="item-price">320</span>
+                    </div>
+                    <p class="item-description">Acquerello rice, fresh seasonal black truffle, porcini.</p>
+                </div>
+            </section>
+
+            <!-- Section: Dessert -->
+            <section class="menu-section">
+                <h2>Les Desserts</h2>
+                
+                <div class="menu-item">
+                    <div class="item-header">
+                        <span class="item-name">Grand Marnier Soufflé</span>
+                        <span class="item-price">165</span>
+                    </div>
+                    <p class="item-description">Vanilla bean crème anglaise, orange zest.</p>
+                </div>
+            </section>
+        </main>
+
+        <footer class="menu-footer">
+            <p>All prices are in thousand IDR and subject to tax & service.</p>
+        </footer>
+    </div>    
 </body>
 </html>
