@@ -91,7 +91,7 @@ nav {
 }
 
 .logo img{
-    height: 100px;
+    height: 60px;
 }
 
 
@@ -436,7 +436,8 @@ footer {
 }
 
 .kontainer_kecil_us{
-    width: 280px;
+    width: 300px;
+    height: 300px;
     background: #181818;
     border-radius: 20px;
     padding: 40px 20px;
@@ -444,6 +445,10 @@ footer {
     transition: 0.4s;
     border: 1px solid rgba(255,255,255,0.05);
     cursor: pointer;
+}
+
+.kontainer_kecil_us h3{
+    color: white;
 }
 
 .kontainer_kecil_us:hover{
@@ -463,6 +468,7 @@ footer {
     line-height: 1.7;
     margin-top: 0;
     opacity: 0;
+    padding-top: 20px;
 }
 
 .kontainer_kecil_us.active .desc_kontainer_kecil{
@@ -475,7 +481,7 @@ footer {
 }
 
 .kontainer_kecil_us img {
-    width: 200px;         
+    width: 100px;         
     height: auto;        
     margin-bottom: 20px; 
     object-fit: contain;
