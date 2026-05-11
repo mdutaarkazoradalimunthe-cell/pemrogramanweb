@@ -312,16 +312,15 @@ footer {
     transform: scale(1.05);
 }
 
-.about_image{
+.about_video{
     flex: 1;
     min-width: 300px;
 }
 
-.about_image img{
+.video_content {
     width: 100%;
-    border-radius: 20px;
-    object-fit: cover;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    height: 100%;
+    object-fit: cover; 
 }
 
 .harus_kita{
@@ -399,7 +398,7 @@ footer {
 }
 
 .kontainer_kecil_us img {
-    width: 100px;         
+    width: 80px;         
     height: auto;        
     margin-bottom: 20px; 
     object-fit: contain;
